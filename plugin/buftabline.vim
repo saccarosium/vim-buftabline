@@ -38,7 +38,7 @@ hi default link BufTabLineModifiedActive  BufTabLineActive
 hi default link BufTabLineModifiedHidden  BufTabLineHidden
 
 let g:buftabline_numbers    = get(g:, 'buftabline_numbers',    0)
-let g:buftabline_indicators = get(g:, 'buftabline_indicators', 0)
+let g:buftabline_indicators = get(g:, 'buftabline_indicators', 1)
 let g:buftabline_separators = get(g:, 'buftabline_separators', 0)
 let g:buftabline_show       = get(g:, 'buftabline_show',       1)
 let g:buftabline_plug_max   = get(g:, 'buftabline_plug_max',  10)
